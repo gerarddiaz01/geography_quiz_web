@@ -1,0 +1,1722 @@
+[
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "flag_file": "af.svg",
+    "location": {
+      "lat": 34.5553494,
+      "lng": 69.207486
+    }
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "capital": "Tirana",
+    "flag_file": "al.svg",
+    "location": {
+      "lat": 41.3275459,
+      "lng": 19.8186982
+    }
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "capital": "Algiers",
+    "flag_file": "dz.svg",
+    "location": {
+      "lat": 36.752887,
+      "lng": 3.042048
+    }
+  },
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "flag_file": "ad.svg",
+    "location": {
+      "lat": 42.50631740000001,
+      "lng": 1.5218355
+    }
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "capital": "Luanda",
+    "flag_file": "ao.svg",
+    "location": {
+      "lat": -8.839987599999999,
+      "lng": 13.2894368
+    }
+  },
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "flag_file": "ag.svg",
+    "location": {
+      "lat": 17.1274104,
+      "lng": -61.84677199999999
+    }
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "flag_file": "ar.svg",
+    "location": {
+      "lat": -34.6036844,
+      "lng": -58.3815591
+    }
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "flag_file": "am.svg",
+    "location": {
+      "lat": 40.1791857,
+      "lng": 44.4991029
+    }
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "capital": "Canberra",
+    "flag_file": "au.svg",
+    "location": {
+      "lat": -35.2819998,
+      "lng": 149.1286843
+    }
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "capital": "Vienna",
+    "flag_file": "at.svg",
+    "location": {
+      "lat": 48.2081743,
+      "lng": 16.3738189
+    }
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "flag_file": "az.svg",
+    "location": {
+      "lat": 40.40926169999999,
+      "lng": 49.8670924
+    }
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "capital": "Manama",
+    "flag_file": "bh.svg",
+    "location": {
+      "lat": 26.2285161,
+      "lng": 50.5860497
+    }
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "flag_file": "bd.svg",
+    "location": {
+      "lat": 23.810332,
+      "lng": 90.4125181
+    }
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "flag_file": "bb.svg",
+    "location": {
+      "lat": 13.1132219,
+      "lng": -59.59880889999999
+    }
+  },
+  {
+    "code": "BY",
+    "name": "Belarus",
+    "capital": "Minsk",
+    "flag_file": "by.svg",
+    "location": {
+      "lat": 53.90453979999999,
+      "lng": 27.5615244
+    }
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "capital": "Brussels",
+    "flag_file": "be.svg",
+    "location": {
+      "lat": 50.8503396,
+      "lng": 4.3517103
+    }
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "capital": "Belmopan",
+    "flag_file": "bz.svg",
+    "location": {
+      "lat": 17.2510114,
+      "lng": -88.7590201
+    }
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "flag_file": "bj.svg",
+    "location": {
+      "lat": 6.4968574,
+      "lng": 2.6288523
+    }
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "flag_file": "bt.svg",
+    "location": {
+      "lat": 27.4727924,
+      "lng": 89.6392863
+    }
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "flag_file": "ba.svg",
+    "location": {
+      "lat": 43.8562586,
+      "lng": 18.4130763
+    }
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "flag_file": "bw.svg",
+    "location": {
+      "lat": -24.6282079,
+      "lng": 25.9231471
+    }
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "capital": "Brasília",
+    "flag_file": "br.svg",
+    "location": {
+      "lat": -15.7942287,
+      "lng": -47.8821658
+    }
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "flag_file": "bg.svg",
+    "location": {
+      "lat": 42.6977082,
+      "lng": 23.3218675
+    }
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "flag_file": "bf.svg",
+    "location": {
+      "lat": 12.3714277,
+      "lng": -1.5196603
+    }
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "capital": "Gitega",
+    "flag_file": "bi.svg",
+    "location": {
+      "lat": -3.361378,
+      "lng": 29.3598782
+    }
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "flag_file": "kh.svg",
+    "location": {
+      "lat": 11.5448729,
+      "lng": 104.8921668
+    }
+  },
+  {
+    "code": "CM",
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "flag_file": "cm.svg",
+    "location": {
+      "lat": 3.8480325,
+      "lng": 11.5020752
+    }
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "capital": "Ottawa",
+    "flag_file": "ca.svg",
+    "location": {
+      "lat": 45.4215296,
+      "lng": -75.69719309999999
+    }
+  },
+  {
+    "code": "CV",
+    "name": "Cape Verde",
+    "capital": "Praia",
+    "flag_file": "cv.svg",
+    "location": {
+      "lat": 14.93305,
+      "lng": -23.5133267
+    }
+  },
+  {
+    "code": "CF",
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "flag_file": "cf.svg",
+    "location": {
+      "lat": 4.3946735,
+      "lng": 18.5581899
+    }
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "flag_file": "td.svg",
+    "location": {
+      "lat": 12.1348457,
+      "lng": 15.0557415
+    }
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "capital": "Santiago",
+    "flag_file": "cl.svg",
+    "location": {
+      "lat": -33.4488897,
+      "lng": -70.6692655
+    }
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "flag_file": "co.svg",
+    "location": {
+      "lat": 4.710988599999999,
+      "lng": -74.072092
+    }
+  },
+  {
+    "code": "KM",
+    "name": "Comoros",
+    "capital": "Moroni",
+    "flag_file": "km.svg",
+    "location": {
+      "lat": -11.7172157,
+      "lng": 43.2473146
+    }
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "capital": "San José",
+    "flag_file": "cr.svg",
+    "location": {
+      "lat": 9.9280694,
+      "lng": -84.0907246
+    }
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "flag_file": "hr.svg",
+    "location": {
+      "lat": 45.8150108,
+      "lng": 15.981919
+    }
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "capital": "Havana",
+    "flag_file": "cu.svg",
+    "location": {
+      "lat": 23.0540698,
+      "lng": -82.34518899999999
+    }
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "flag_file": "cy.svg",
+    "location": {
+      "lat": 35.0400155,
+      "lng": 33.1239049
+    }
+  },
+  {
+    "code": "CZ",
+    "name": "Czech Republic",
+    "capital": "Prague",
+    "flag_file": "cz.svg",
+    "location": {
+      "lat": 50.0755381,
+      "lng": 14.4378005
+    }
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "flag_file": "dk.svg",
+    "location": {
+      "lat": 55.6760968,
+      "lng": 12.5683371
+    }
+  },
+  {
+    "code": "DJ",
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "flag_file": "dj.svg",
+    "location": {
+      "lat": 11.5720765,
+      "lng": 43.1456475
+    }
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "capital": "Roseau",
+    "flag_file": "dm.svg",
+    "location": {
+      "lat": 15.3091676,
+      "lng": -61.37935539999999
+    }
+  },
+  {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "flag_file": "do.svg",
+    "location": {
+      "lat": 18.4860575,
+      "lng": -69.93121169999999
+    }
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "capital": "Quito",
+    "flag_file": "ec.svg",
+    "location": {
+      "lat": -0.1806532,
+      "lng": -78.4678382
+    }
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "capital": "Cairo",
+    "flag_file": "eg.svg",
+    "location": {
+      "lat": 30.0444196,
+      "lng": 31.2357116
+    }
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "flag_file": "sv.svg",
+    "location": {
+      "lat": 13.6929403,
+      "lng": -89.2181911
+    }
+  },
+  {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "capital": "Malabo",
+    "flag_file": "gq.svg",
+    "location": {
+      "lat": 3.7504118,
+      "lng": 8.7371039
+    }
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "flag_file": "er.svg",
+    "location": {
+      "lat": 15.3228767,
+      "lng": 38.9250517
+    }
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "flag_file": "ee.svg",
+    "location": {
+      "lat": 59.43696079999999,
+      "lng": 24.7535746
+    }
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "flag_file": "et.svg",
+    "location": {
+      "lat": 8.9806034,
+      "lng": 38.7577605
+    }
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "capital": "Suva",
+    "flag_file": "fj.svg",
+    "location": {
+      "lat": -18.1248086,
+      "lng": 178.4500789
+    }
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "capital": "Helsinki",
+    "flag_file": "fi.svg",
+    "location": {
+      "lat": 60.17332440000001,
+      "lng": 24.9410248
+    }
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "capital": "Paris",
+    "flag_file": "fr.svg",
+    "location": {
+      "lat": 48.856614,
+      "lng": 2.3522219
+    }
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "capital": "Libreville",
+    "flag_file": "ga.svg",
+    "location": {
+      "lat": 0.4161976,
+      "lng": 9.4672676
+    }
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "flag_file": "ge.svg",
+    "location": {
+      "lat": 41.7151377,
+      "lng": 44.827096
+    }
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "capital": "Berlin",
+    "flag_file": "de.svg",
+    "location": {
+      "lat": 52.52000659999999,
+      "lng": 13.404954
+    }
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "capital": "Accra",
+    "flag_file": "gh.svg",
+    "location": {
+      "lat": 5.6037168,
+      "lng": -0.1869644
+    }
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "capital": "Athens",
+    "flag_file": "gr.svg",
+    "location": {
+      "lat": 37.983917,
+      "lng": 23.7293599
+    }
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "capital": "St. George's",
+    "flag_file": "gd.svg",
+    "location": {
+      "lat": 12.0560975,
+      "lng": -61.7487996
+    }
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "flag_file": "gt.svg",
+    "location": {
+      "lat": 14.6349149,
+      "lng": -90.5068824
+    }
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "capital": "Conakry",
+    "flag_file": "gn.svg",
+    "location": {
+      "lat": 9.641185499999999,
+      "lng": -13.5784012
+    }
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "flag_file": "gw.svg",
+    "location": {
+      "lat": 11.8816553,
+      "lng": -15.6177942
+    }
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "flag_file": "gy.svg",
+    "location": {
+      "lat": 6.8012793,
+      "lng": -58.1551255
+    }
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "flag_file": "ht.svg",
+    "location": {
+      "lat": 18.594395,
+      "lng": -72.3074326
+    }
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "flag_file": "hn.svg",
+    "location": {
+      "lat": 14.0722751,
+      "lng": -87.19213599999999
+    }
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "capital": "Budapest",
+    "flag_file": "hu.svg",
+    "location": {
+      "lat": 47.497912,
+      "lng": 19.040235
+    }
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "capital": "Reykjavik",
+    "flag_file": "is.svg",
+    "location": {
+      "lat": 64.12652059999999,
+      "lng": -21.8174393
+    }
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "capital": "New Delhi",
+    "flag_file": "in.svg",
+    "location": {
+      "lat": 28.6139391,
+      "lng": 77.2090212
+    }
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "capital": "Nusantara",
+    "flag_file": "id.svg",
+    "location": {
+      "lat": -6.2087634,
+      "lng": 106.845599
+    }
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "flag_file": "iq.svg",
+    "location": {
+      "lat": 33.3128057,
+      "lng": 44.3614875
+    }
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "flag_file": "il.svg",
+    "location": {
+      "lat": 31.768319,
+      "lng": 35.21371
+    }
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "capital": "Rome",
+    "flag_file": "it.svg",
+    "location": {
+      "lat": 41.9027835,
+      "lng": 12.4963655
+    }
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "flag_file": "jm.svg",
+    "location": {
+      "lat": 18.0178743,
+      "lng": -76.8099041
+    }
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "capital": "Tokyo",
+    "flag_file": "jp.svg",
+    "location": {
+      "lat": 35.7090259,
+      "lng": 139.7319925
+    }
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "capital": "Amman",
+    "flag_file": "jo.svg",
+    "location": {
+      "lat": 31.9565783,
+      "lng": 35.9456951
+    }
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "flag_file": "kz.svg",
+    "location": {
+      "lat": 51.16052269999999,
+      "lng": 71.4703558
+    }
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "flag_file": "ke.svg",
+    "location": {
+      "lat": -1.2920659,
+      "lng": 36.8219462
+    }
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "capital": "South Tarawa",
+    "flag_file": "ki.svg",
+    "location": {
+      "lat": 1.3290526,
+      "lng": 172.9790528
+    }
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "flag_file": "kw.svg",
+    "location": {
+      "lat": 29.375859,
+      "lng": 47.9774052
+    }
+  },
+  {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "flag_file": "kg.svg",
+    "location": {
+      "lat": 42.8746212,
+      "lng": 74.5697617
+    }
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "capital": "Riga",
+    "flag_file": "lv.svg",
+    "location": {
+      "lat": 56.9496487,
+      "lng": 24.1051864
+    }
+  },
+  {
+    "code": "LB",
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "flag_file": "lb.svg",
+    "location": {
+      "lat": 33.8886289,
+      "lng": 35.4954794
+    }
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "flag_file": "ls.svg",
+    "location": {
+      "lat": -29.36321879999999,
+      "lng": 27.5143603
+    }
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "flag_file": "lr.svg",
+    "location": {
+      "lat": 6.2907432,
+      "lng": -10.7605239
+    }
+  },
+  {
+    "code": "LY",
+    "name": "Libya",
+    "capital": "Tripoli",
+    "flag_file": "ly.svg",
+    "location": {
+      "lat": 32.8872094,
+      "lng": 13.1913383
+    }
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "flag_file": "li.svg",
+    "location": {
+      "lat": 47.1410303,
+      "lng": 9.5209277
+    }
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "flag_file": "lt.svg",
+    "location": {
+      "lat": 54.6871555,
+      "lng": 25.2796514
+    }
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "flag_file": "lu.svg",
+    "location": {
+      "lat": 49.61162100000001,
+      "lng": 6.1319346
+    }
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "flag_file": "mg.svg",
+    "location": {
+      "lat": -18.8791902,
+      "lng": 47.5079055
+    }
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "flag_file": "mw.svg",
+    "location": {
+      "lat": -13.9626121,
+      "lng": 33.7741195
+    }
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "flag_file": "my.svg",
+    "location": {
+      "lat": 3.139003,
+      "lng": 101.686855
+    }
+  },
+  {
+    "code": "MV",
+    "name": "Maldives",
+    "capital": "Malé",
+    "flag_file": "mv.svg",
+    "location": {
+      "lat": 4.1754959,
+      "lng": 73.5093474
+    }
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "capital": "Bamako",
+    "flag_file": "ml.svg",
+    "location": {
+      "lat": 12.6392316,
+      "lng": -8.0028892
+    }
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "capital": "Valletta",
+    "flag_file": "mt.svg",
+    "location": {
+      "lat": 35.8989085,
+      "lng": 14.5145528
+    }
+  },
+  {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "flag_file": "mh.svg",
+    "location": {
+      "lat": 7.1164214,
+      "lng": 171.1857736
+    }
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "flag_file": "mr.svg",
+    "location": {
+      "lat": 18.0735299,
+      "lng": -15.9582372
+    }
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "flag_file": "mu.svg",
+    "location": {
+      "lat": -20.1668958,
+      "lng": 57.502332
+    }
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "flag_file": "mx.svg",
+    "location": {
+      "lat": 19.4326077,
+      "lng": -99.133208
+    }
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "capital": "Monaco",
+    "flag_file": "mc.svg",
+    "location": {
+      "lat": 43.73741099999999,
+      "lng": 7.420815999999999
+    }
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "capital": "Ulan Bator",
+    "flag_file": "mn.svg",
+    "location": {
+      "lat": 47.88639879999999,
+      "lng": 106.9057439
+    }
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "flag_file": "me.svg",
+    "location": {
+      "lat": 42.4304196,
+      "lng": 19.2593642
+    }
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "capital": "Rabat",
+    "flag_file": "ma.svg",
+    "location": {
+      "lat": 33.9715904,
+      "lng": -6.8498129
+    }
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "flag_file": "mz.svg",
+    "location": {
+      "lat": -25.891968,
+      "lng": 32.6051351
+    }
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "flag_file": "mm.svg",
+    "location": {
+      "lat": 19.7633057,
+      "lng": 96.07851040000001
+    }
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "flag_file": "na.svg",
+    "location": {
+      "lat": -22.5608807,
+      "lng": 17.0657549
+    }
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "capital": "Yaren",
+    "flag_file": "nr.svg",
+    "location": {
+      "lat": -0.5466856999999999,
+      "lng": 166.9210913
+    }
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "flag_file": "np.svg",
+    "location": {
+      "lat": 27.7172453,
+      "lng": 85.3239605
+    }
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "flag_file": "nl.svg",
+    "location": {
+      "lat": 52.3702157,
+      "lng": 4.895167900000001
+    }
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "flag_file": "nz.svg",
+    "location": {
+      "lat": -41.2864603,
+      "lng": 174.776236
+    }
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "flag_file": "ni.svg",
+    "location": {
+      "lat": 12.1149926,
+      "lng": -86.2361744
+    }
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "capital": "Niamey",
+    "flag_file": "ne.svg",
+    "location": {
+      "lat": 13.5115963,
+      "lng": 2.1253854
+    }
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "flag_file": "ng.svg",
+    "location": {
+      "lat": 9.0764785,
+      "lng": 7.398574
+    }
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "capital": "Oslo",
+    "flag_file": "no.svg",
+    "location": {
+      "lat": 59.9138688,
+      "lng": 10.7522454
+    }
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "capital": "Muscat",
+    "flag_file": "om.svg",
+    "location": {
+      "lat": 23.58589,
+      "lng": 58.4059227
+    }
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "flag_file": "pk.svg",
+    "location": {
+      "lat": 33.7293882,
+      "lng": 73.0931461
+    }
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "capital": "Ngerulmud",
+    "flag_file": "pw.svg",
+    "location": {
+      "lat": 7.5003835,
+      "lng": 134.624289
+    }
+  },
+  {
+    "code": "PS",
+    "name": "Palestine",
+    "capital": "Ramallah",
+    "flag_file": "ps.svg",
+    "location": {
+      "lat": 31.8980428,
+      "lng": 35.2042714
+    }
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "capital": "Panama City",
+    "flag_file": "pa.svg",
+    "location": {
+      "lat": 9.1011785,
+      "lng": -79.4028639
+    }
+  },
+  {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "flag_file": "pg.svg",
+    "location": {
+      "lat": -9.443800399999999,
+      "lng": 147.1802671
+    }
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "flag_file": "py.svg",
+    "location": {
+      "lat": -25.2637399,
+      "lng": -57.57592599999999
+    }
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "capital": "Lima",
+    "flag_file": "pe.svg",
+    "location": {
+      "lat": -12.046374,
+      "lng": -77.0427934
+    }
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "capital": "Manila",
+    "flag_file": "ph.svg",
+    "location": {
+      "lat": 14.5995124,
+      "lng": 120.9842195
+    }
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "flag_file": "pl.svg",
+    "location": {
+      "lat": 52.2296756,
+      "lng": 21.0122287
+    }
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "flag_file": "pt.svg",
+    "location": {
+      "lat": 38.7222524,
+      "lng": -9.1393366
+    }
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "capital": "Doha",
+    "flag_file": "qa.svg",
+    "location": {
+      "lat": 25.2854473,
+      "lng": 51.53103979999999
+    }
+  },
+  {
+    "code": "XK",
+    "name": "Republic of Kosovo",
+    "capital": "Pristina",
+    "flag_file": "xk.svg",
+    "location": {
+      "lat": 42.6647855,
+      "lng": 21.1641509
+    }
+  },
+  {
+    "code": "CG",
+    "name": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "flag_file": "cg.svg",
+    "location": {
+      "lat": -4.2633597,
+      "lng": 15.2428853
+    }
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "capital": "Bucharest",
+    "flag_file": "ro.svg",
+    "location": {
+      "lat": 44.4267674,
+      "lng": 26.1025384
+    }
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "flag_file": "rw.svg",
+    "location": {
+      "lat": -1.9705786,
+      "lng": 30.1044288
+    }
+  },
+  {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "flag_file": "kn.svg",
+    "location": {
+      "lat": 17.3026058,
+      "lng": -62.7176924
+    }
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "flag_file": "lc.svg",
+    "location": {
+      "lat": 14.0101094,
+      "lng": -60.98746869999999
+    }
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "flag_file": "vc.svg",
+    "location": {
+      "lat": 13.1600249,
+      "lng": -61.2248157
+    }
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "capital": "Apia",
+    "flag_file": "ws.svg",
+    "location": {
+      "lat": -13.8506958,
+      "lng": -171.7513551
+    }
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "capital": "City of San Marino",
+    "flag_file": "sm.svg",
+    "location": {
+      "lat": 43.9355907,
+      "lng": 12.4472806
+    }
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "flag_file": "sa.svg",
+    "location": {
+      "lat": 25.0054482,
+      "lng": 46.544831
+    }
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "capital": "Dakar",
+    "flag_file": "sn.svg",
+    "location": {
+      "lat": 14.7645042,
+      "lng": -17.3660286
+    }
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "flag_file": "rs.svg",
+    "location": {
+      "lat": 44.786568,
+      "lng": 20.4489216
+    }
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "flag_file": "sc.svg",
+    "location": {
+      "lat": -4.619143,
+      "lng": 55.4513149
+    }
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "flag_file": "sl.svg",
+    "location": {
+      "lat": 8.4656765,
+      "lng": -13.2317225
+    }
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "capital": "Singapore",
+    "flag_file": "sg.svg",
+    "location": {
+      "lat": 1.3553794,
+      "lng": 103.8677444
+    }
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "flag_file": "sk.svg",
+    "location": {
+      "lat": 48.1458923,
+      "lng": 17.1071373
+    }
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "flag_file": "si.svg",
+    "location": {
+      "lat": 46.0569465,
+      "lng": 14.5057515
+    }
+  },
+  {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "flag_file": "sb.svg",
+    "location": {
+      "lat": -9.4456381,
+      "lng": 159.9728999
+    }
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "flag_file": "so.svg",
+    "location": {
+      "lat": 2.0469343,
+      "lng": 45.3181623
+    }
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "flag_file": "za.svg",
+    "location": {
+      "lat": -25.7478676,
+      "lng": 28.2292712
+    }
+  },
+  {
+    "code": "SS",
+    "name": "South Sudan",
+    "capital": "Juba",
+    "flag_file": "ss.svg",
+    "location": {
+      "lat": 4.859363,
+      "lng": 31.57125
+    }
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "capital": "Madrid",
+    "flag_file": "es.svg",
+    "location": {
+      "lat": 40.4167754,
+      "lng": -3.7037902
+    }
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "capital": "Colombo",
+    "flag_file": "lk.svg",
+    "location": {
+      "lat": 6.9270786,
+      "lng": 79.861243
+    }
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "flag_file": "sd.svg",
+    "location": {
+      "lat": 15.5006544,
+      "lng": 32.5598994
+    }
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "flag_file": "sr.svg",
+    "location": {
+      "lat": 5.8520355,
+      "lng": -55.2038278
+    }
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "flag_file": "se.svg",
+    "location": {
+      "lat": 59.32932349999999,
+      "lng": 18.0685808
+    }
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "capital": "Bern",
+    "flag_file": "ch.svg",
+    "location": {
+      "lat": 46.9479739,
+      "lng": 7.4474468
+    }
+  },
+  {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "flag_file": "tj.svg",
+    "location": {
+      "lat": 38.5597722,
+      "lng": 68.7870384
+    }
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "flag_file": "th.svg",
+    "location": {
+      "lat": 13.7563309,
+      "lng": 100.5017651
+    }
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "capital": "Lomé",
+    "flag_file": "tg.svg",
+    "location": {
+      "lat": 6.1724969,
+      "lng": 1.2313618
+    }
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "capital": "Nuku'alofa",
+    "flag_file": "to.svg",
+    "location": {
+      "lat": -21.1393418,
+      "lng": -175.204947
+    }
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "flag_file": "tt.svg",
+    "location": {
+      "lat": 10.6549013,
+      "lng": -61.50192559999999
+    }
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "flag_file": "tn.svg",
+    "location": {
+      "lat": 36.8064948,
+      "lng": 10.1815316
+    }
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "flag_file": "tm.svg",
+    "location": {
+      "lat": 37.9600766,
+      "lng": 58.32606289999999
+    }
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "flag_file": "tv.svg",
+    "location": {
+      "lat": -8.5200657,
+      "lng": 179.198128
+    }
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "capital": "Kampala",
+    "flag_file": "ug.svg",
+    "location": {
+      "lat": 0.3475964,
+      "lng": 32.5825197
+    }
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "capital": "Kiev",
+    "flag_file": "ua.svg",
+    "location": {
+      "lat": 50.4501,
+      "lng": 30.5234
+    }
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "flag_file": "ae.svg",
+    "location": {
+      "lat": 24.2991738,
+      "lng": 54.6972774
+    }
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "capital": "London",
+    "flag_file": "gb.svg",
+    "location": {
+      "lat": 51.5073509,
+      "lng": -0.1277583
+    }
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "capital": "Washington D.C.",
+    "flag_file": "us.svg",
+    "location": {
+      "lat": 38.9071923,
+      "lng": -77.0368707
+    }
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "flag_file": "uy.svg",
+    "location": {
+      "lat": -34.9011127,
+      "lng": -56.16453139999999
+    }
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "flag_file": "uz.svg",
+    "location": {
+      "lat": 41.2994958,
+      "lng": 69.2400734
+    }
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "flag_file": "vu.svg",
+    "location": {
+      "lat": -17.7332512,
+      "lng": 168.3273245
+    }
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "flag_file": "vn.svg",
+    "location": {
+      "lat": 21.0277644,
+      "lng": 105.8341598
+    }
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "flag_file": "ye.svg",
+    "location": {
+      "lat": 15.3694451,
+      "lng": 44.1910066
+    }
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "flag_file": "zm.svg",
+    "location": {
+      "lat": -15.3875259,
+      "lng": 28.3228165
+    }
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "flag_file": "zw.svg",
+    "location": {
+      "lat": -17.8251657,
+      "lng": 31.03351
+    }
+  }
+]

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Capital</title>
+
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" />
+</head>
+<body>
+
+<div style="display: flex; align-items: flex-start; gap: 40px;">
+
+    <!-- LEFT: Flag and quiz form -->
+    <div>
+        <h1>Country: {{ country.name }}</h1>
+        <img src="{{ url_for('static', filename='flags/' + country.flag_file) }}" 
+             alt="Flag of {{ country.name }}" width="200">
+
+        <form method="post">
+            <label for="capital">What is the capital?</label><br>
+            <select id="capital" name="user_answer" required style="width: 300px;">
+                <option></option>
+                {% for c in all_capitals %}
+                    <option value="{{ c }}">{{ c|title }}</option>
+                {% endfor %}
+            </select>
+
+            <input type="hidden" name="correct_answer" value="{{ country.capital }}">
+            <input type="hidden" name="country_name" value="{{ country.name }}">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- RIGHT: Result display and leaderboard -->
+    <div style="border-left: 2px solid #ccc; padding-left: 20px;">
+        {% if show_result %}
+            <h2>Result</h2>
+            {% if is_correct %}
+                <p style="color: green;">
+                    ✅ <strong>Yes! The capital of {{ country_name }} is {{ correct_answer|title }}</strong>
+                </p>
+                <form method="get">
+                    <button type="submit" style="margin-top: 20px;">Next country</button>
+                </form>
+            {% else %}
+                <p style="color: red;">
+                    ❌ <strong>Nope! The capital of {{ country_name }} is {{ correct_answer|title }}</strong><br>
+                    You answered: <em>{{ user_answer|title }}</em>
+                </p>
+                <form method="post" action="{{ url_for('reset') }}">
+                    <button type="submit" style="margin-top: 20px;">Reset</button>
+                </form>
+            {% endif %}
+        {% endif %}
+
+        <!-- Leaderboard always visible on the right -->
+        <!-- <div style="margin-top: 30px;">
+            <h3>Top 5 Streaks (this session)</h3>
+            <ol>
+                {% for record in top5 %}
+                    <li>{{ record.user }}: {{ record.streak }}</li>
+                {% else %}
+                    <li>No records yet.</li>
+                {% endfor %}
+            </ol>
+            <p>Your current streak: {{ streak }}</p>
+        </div> -->
+    </div>
+</div>
+
+<!-- jQuery and Select2 JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<!-- Select2 Initialization -->
+<script>
+    $(document).ready(function() {
+        $('#capital').select2({
+            placeholder: "Start typing the capital...",
+            allowClear: true,
+        }).select2('open');
+
+        setTimeout(function() {
+            document.querySelector('.select2-container--open .select2-search__field')?.focus();
+        }, 300);
+    });
+</script>
+
+</body>
+</html>

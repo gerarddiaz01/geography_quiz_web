@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geography Quiz - Start</title>
+</head>
+<body>
+    <h1>Welcome to the Geography Quiz!</h1>
+    <p>Enter your name to start. The record streak will be tracked for this session.</p>
+    <form action="{{ url_for('start') }}" method="post">
+        <label for="username">Player name(s):</label>
+        <input type="text" id="username" name="username" required placeholder="e.g. Marc, Emma">
+        <button type="submit">Start Quiz</button>
+    </form>
+
+    <div style="margin-top: 30px;">
+    <h3>Top 5 Streaks (this session)</h3>
+    <ol>
+        {% for record in top5 %}
+            <li>{{ record.user }}: {{ record.streak }}</li>
+        {% else %}
+            <li>No records yet.</li>
+        {% endfor %}
+    </ol>
+</div>
+</body>
+</html>

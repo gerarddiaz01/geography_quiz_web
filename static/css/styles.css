@@ -1,0 +1,5 @@
+/* Force Select2 dropdown to always open below the input */
+.select2-container--open .select2-dropdown {
+    top: 100% !important;
+    bottom: auto !important;
+}
