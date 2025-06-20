@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <title>Guess the Capital</title>
 
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic&display=swap" rel="stylesheet">
+
     <!-- Select2 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" />
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
 </head>
 <body>
 
@@ -14,9 +20,10 @@
 
     <!-- LEFT: Flag and quiz form -->
     <div>
-        <h1>Country: {{ country.name }}</h1>
+        <h1 class="secondary-title">Country: {{ country.name }}</h1>
         <img src="{{ url_for('static', filename='flags/' + country.flag_file) }}" 
-             alt="Flag of {{ country.name }}" width="200">
+             alt="Flag of {{ country.name }}" width="200"
+             style="border: 1px solid #000;">
 
         <form method="post">
             <label for="capital">What is the capital?</label><br>
@@ -78,7 +85,7 @@
 <script>
     $(document).ready(function() {
         $('#capital').select2({
-            placeholder: "Start typing the capital...",
+            placeholder: "Start typing the capital below...",
             allowClear: true,
         }).select2('open');
 

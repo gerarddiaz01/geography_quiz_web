@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Geography Quiz - Start</title>
+
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.ico') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+
 </head>
 <body>
-    <h1>Welcome to the Geography Quiz!</h1>
+    <h1 class="big-title"> Welcome to the Geography Quiz!</h1>
     <p>Enter your name to start. The record streak will be tracked for this session.</p>
     <form action="{{ url_for('start') }}" method="post">
         <label for="username">Player name(s):</label>

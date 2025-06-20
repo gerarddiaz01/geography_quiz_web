@@ -3,3 +3,15 @@
     top: 100% !important;
     bottom: auto !important;
 }
+
+.big-title {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secondary-title {
+  font-family: "LXGW Marker Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
