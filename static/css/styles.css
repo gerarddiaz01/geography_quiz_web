@@ -15,3 +15,29 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+    font-family: 'Rock Salt';
+    src: url('/static/fonts/RockSalt-Regular.eot');
+    src: url('/static/fonts/RockSalt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/static/fonts/RockSalt-Regular.woff2') format('woff2'),
+        url('/static/fonts/RockSalt-Regular.woff') format('woff'),
+        url('/static/fonts/RockSalt-Regular.ttf') format('truetype'),
+        url('/static/fonts/RockSalt-Regular.svg#RockSalt-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LXGW Marker Gothic';
+    src: url('/static/fonts/LXGWMarkerGothic-Regular.eot');
+    src: url('/static/fonts/LXGWMarkerGothic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/static/fonts/LXGWMarkerGothic-Regular.woff2') format('woff2'),
+        url('/static/fonts/LXGWMarkerGothic-Regular.woff') format('woff'),
+        url('/static/fonts/LXGWMarkerGothic-Regular.ttf') format('truetype'),
+        url('/static/fonts/LXGWMarkerGothic-Regular.svg#LXGWMarkerGothic-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
