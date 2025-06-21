@@ -12,15 +12,18 @@
 </head>
 <body>
     <h1 class="big-title"> 🌍 Welcome to the Geography Quiz!🌎 </h1>
-    <p>Enter your name to start. The record streak will be tracked for this session.</p>
+    <p> <span class="icon-world" style="font-size: 25px;"></span>
+        Enter your name to start. The record streak will be tracked for this session.</p>
     <form action="{{ url_for('start') }}" method="post">
-        <label for="username">Player name(s):</label>
+        <label for="username"><span class="icon-user-plus" style="font-size: 25px;"></span>
+            Player name(s):</label>
         <input type="text" id="username" name="username" required placeholder="e.g. Marc, Emma">
         <button type="submit">Start Quiz</button>
     </form>
 
     <div style="margin-top: 30px;">
-    <h3>Top 5 Streaks (this session)</h3>
+    <h3><span class="icon-power" style="font-size: 25px;"></span>
+        Top 5 Streaks (this session)</h3>
     <ol>
         {% for record in top5 %}
             <li>{{ record.user }}: {{ record.streak }}</li>

@@ -9,6 +9,7 @@
     <!-- Select2 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+
 </head>
 <body>
 
@@ -42,14 +43,16 @@
             <h2>Result</h2>
             {% if is_correct %}
                 <p style="color: green;">
-                    ✅ <strong>Yes! The capital of {{ country_name }} is {{ correct_answer|title }}</strong>
+                    <span class="icon-checkbox-checked" style="font-size: 25px;"></span>
+                    <strong>Yes! The capital of {{ country_name }} is {{ correct_answer|title }}</strong>
                 </p>
                 <form method="get">
                     <button type="submit" style="margin-top: 20px;">Next country</button>
                 </form>
             {% else %}
                 <p style="color: red;">
-                    ❌ <strong>Nope! The capital of {{ country_name }} is {{ correct_answer|title }}</strong><br>
+                    <span class="icon-cancel-circle" style="font-size: 25px;"></span>
+                    <strong>Nope! The capital of {{ country_name }} is {{ correct_answer|title }}</strong><br><br>
                     You answered: <em>{{ user_answer|title }}</em>
                 </p>
                 <form method="post" action="{{ url_for('reset') }}">
