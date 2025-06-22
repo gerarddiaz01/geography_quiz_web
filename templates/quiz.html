@@ -13,17 +13,18 @@
 </head>
 <body>
 
-<div style="display: flex; align-items: flex-start; gap: 40px;">
+<div class="quiz-container">
 
     <!-- LEFT: Flag and quiz form -->
-    <div>
+    <div class="questions-quiz">
         <h1 class="secondary-title">Country: {{ country.name }}</h1>
         <img src="{{ url_for('static', filename='flags/' + country.flag_file) }}" 
              alt="Flag of {{ country.name }}" width="200"
-             style="border: 1px solid #000;">
+             style="border: 1px solid #000;"><br>
 
         <form method="post">
-            <label for="capital">What is the capital?</label><br>
+            <br>
+            <label class="cuerpo3" for="capital">What is the capital?</label><br>
             <select id="capital" name="user_answer" required style="width: 300px;">
                 <option></option>
                 {% for c in all_capitals %}
@@ -33,30 +34,30 @@
 
             <input type="hidden" name="correct_answer" value="{{ country.capital }}">
             <input type="hidden" name="country_name" value="{{ country.name }}">
-            <button type="submit">Submit</button>
+            <button class="big-button" type="submit">Submit</button>
         </form>
     </div>
 
     <!-- RIGHT: Result display and leaderboard -->
-    <div style="border-left: 2px solid #ccc; padding-left: 20px;">
+    <div class="results-quiz">
         {% if show_result %}
             <h2>Result</h2>
             {% if is_correct %}
-                <p style="color: green;">
+                <p class="correct-answer">
                     <span class="icon-checkbox-checked" style="font-size: 25px;"></span>
                     <strong>Yes! The capital of {{ country_name }} is {{ correct_answer|title }}</strong>
                 </p>
                 <form method="get">
-                    <button type="submit" style="margin-top: 20px;">Next country</button>
+                    <button class="big-button" type="submit">Next country</button>
                 </form>
             {% else %}
-                <p style="color: red;">
+                <p class="wrong-answer">
                     <span class="icon-cancel-circle" style="font-size: 25px;"></span>
                     <strong>Nope! The capital of {{ country_name }} is {{ correct_answer|title }}</strong><br><br>
                     You answered: <em>{{ user_answer|title }}</em>
                 </p>
                 <form method="post" action="{{ url_for('reset') }}">
-                    <button type="submit" style="margin-top: 20px;">Reset</button>
+                    <button class="big-button" type="submit">Reset</button>
                 </form>
             {% endif %}
         {% endif %}

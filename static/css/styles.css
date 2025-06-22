@@ -39,7 +39,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
+  /* speak: never; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -62,6 +62,7 @@
 }
 .icon-power:before {
   content: "\e9b5";
+  color: yellow
 }
 .icon-cancel-circle:before {
   content: "\ea0d";
@@ -92,4 +93,78 @@
   font-family: "LXGW Marker Gothic", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+header {
+  width: 50%;
+  height: 70px; /* Altura fija para el ejemplo */
+  margin-left: 400px;
+}
+
+.cuerpo1 {
+  font-family: "LXGW Marker Gothic", sans-serif;
+  font-style: normal;
+  margin-top: 90px;
+  margin-left: 490px;
+  padding: 0 16px 16px 16px;
+  background-color: rgba(135, 206, 250, 0.629);
+  border-radius: 8px;
+  display: inline-block
+}
+
+.cuerpo2 {
+  font-family: "LXGW Marker Gothic", sans-serif;
+  font-style: normal;
+  margin-top: 150px;
+  margin-left: 590px;
+  background-color: rgba(109, 75, 11, 0.686);
+  padding: 0 16px 16px 16px; /* arriba 0, derecha 16px, abajo 16px, izquierda 16px */
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+  display: inline-block; /* Hace que el fondo solo abarque el contenido */
+}
+
+.cuerpo3 {
+  font-family: "LXGW Marker Gothic", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.results-quiz {
+  font-family: "LXGW Marker Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 0 16px 16px 20px;
+  background-color: rgba(109, 75, 11, 0.334);
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.questions-quiz {
+  padding: 0 16px 16px 20px;
+  background-color: rgba(173, 222, 230, 0.633);
+  border-radius: 8px;
+  height: 480px;
+}
+
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  margin-top: 40px;
+}
+
+.correct-answer  {
+  color: green;
+}
+
+.wrong-answer {
+  color: red;
+}
+
+.big-button {
+  font-size: 1em;
+  padding: 10px 28px;
+  border-radius: 8px;
 }
