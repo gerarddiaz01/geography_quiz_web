@@ -11,89 +11,106 @@
     <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
 
 </head>
-<body>
+<body class="background-image2">
 
-<div class="quiz-container">
-
-    <!-- LEFT: Flag and quiz form -->
-    <div class="questions-quiz">
-        <h1 class="secondary-title">Country: {{ country.name }}</h1>
-        <img src="{{ url_for('static', filename='flags/' + country.flag_file) }}" 
-             alt="Flag of {{ country.name }}" width="200"
-             style="border: 1px solid #000;"><br>
-
-        <form method="post">
-            <br>
-            <label class="cuerpo3" for="capital">What is the capital?</label><br>
-            <select id="capital" name="user_answer" required style="width: 300px;">
-                <option></option>
-                {% for c in all_capitals %}
-                    <option value="{{ c }}">{{ c|title }}</option>
-                {% endfor %}
-            </select>
-
-            <input type="hidden" name="correct_answer" value="{{ country.capital }}">
-            <input type="hidden" name="country_name" value="{{ country.name }}">
-            <button class="big-button" type="submit">Submit</button>
-        </form>
+    <div class="home-button-container">
+        <a href="{{ url_for('index') }}" class="home-button">
+            <span class="icon-home3" style="font-size: 25px;"></span> Home
+        </a>
     </div>
 
-    <!-- RIGHT: Result display and leaderboard -->
-    <div class="results-quiz">
-        {% if show_result %}
-            <h2>Result</h2>
-            {% if is_correct %}
-                <p class="correct-answer">
-                    <span class="icon-checkbox-checked" style="font-size: 25px;"></span>
-                    <strong>Yes! The capital of {{ country_name }} is {{ correct_answer|title }}</strong>
-                </p>
-                <form method="get">
-                    <button class="big-button" type="submit">Next country</button>
-                </form>
-            {% else %}
-                <p class="wrong-answer">
-                    <span class="icon-cancel-circle" style="font-size: 25px;"></span>
-                    <strong>Nope! The capital of {{ country_name }} is {{ correct_answer|title }}</strong><br><br>
-                    You answered: <em>{{ user_answer|title }}</em>
-                </p>
-                <form method="post" action="{{ url_for('reset') }}">
-                    <button class="big-button" type="submit">Reset</button>
-                </form>
-            {% endif %}
-        {% endif %}
+    <div class="quiz-container">
 
-        <!-- Leaderboard always visible on the right -->
-        <!-- <div style="margin-top: 30px;">
-            <h3>Top 5 Streaks (this session)</h3>
-            <ol>
-                {% for record in top5 %}
-                    <li>{{ record.user }}: {{ record.streak }}</li>
+        <!-- LEFT: Flag and quiz form -->
+        <div class="questions-quiz">
+            <h1 class="secondary-title">Country: {{ country.name }}</h1>
+            <img src="{{ url_for('static', filename='flags/' + country.flag_file) }}" 
+                alt="Flag of {{ country.name }}" width="200"
+                style="border: 1px solid #000;"><br>
+
+            <form method="post">
+                <br>
+                <label class="cuerpo3" for="capital">What is the capital?</label><br>
+                <select id="capital" name="user_answer" required style="width: 300px;">
+                    <option></option>
+                    {% for c in all_capitals %}
+                        <option value="{{ c }}">{{ c|title }}</option>
+                    {% endfor %}
+                </select>
+
+                <input type="hidden" name="correct_answer" value="{{ country.capital }}">
+                <input type="hidden" name="country_name" value="{{ country.name }}">
+                <button class="big-button" type="submit" id="submitButton">Submit</button>
+            </form>
+        </div>
+
+        <!-- RIGHT: Result display -->
+        <div class="results-quiz">
+            {% if show_result %}
+                <h2>Result</h2>
+                {% if is_correct %}
+                    <p class="answer">
+                        <span class="icon-checkbox-checked" style="font-size: 25px;"></span>
+                        <strong>Yes! The capital of {{ country_name }} is {{ correct_answer|title }}</strong>
+                    </p>
+                    <form method="get" id="nextCountryForm">
+                        <button class="big-button" type="submit">Next country</button>
+                    </form>
                 {% else %}
-                    <li>No records yet.</li>
-                {% endfor %}
-            </ol>
-            <p>Your current streak: {{ streak }}</p>
-        </div> -->
+                    <p class="answer">
+                        <span class="icon-cancel-circle" style="font-size: 25px;"></span>
+                        <strong>Nope! The capital of {{ country_name }} is {{ correct_answer|title }}</strong><br><br>
+                        You answered: <em>{{ user_answer|title }}</em>
+                    </p>
+                    <form method="post" action="{{ url_for('reset') }}" id="resetForm">
+                        <button class="big-button" type="submit">Reset</button>
+                    </form>
+                {% endif %}
+            {% endif %}
+
+            <!-- Leaderboard always visible on the right -->
+            <!-- <div style="margin-top: 30px;">
+                <h3>Top 5 Streaks (this session)</h3>
+                <ol>
+                    {% for record in top5 %}
+                        <li>{{ record.user }}: {{ record.streak }}</li>
+                    {% else %}
+                        <li>No records yet.</li>
+                    {% endfor %}
+                </ol>
+                <p>Your current streak: {{ streak }}</p>
+            </div> -->
+        </div>
     </div>
-</div>
 
-<!-- jQuery and Select2 JS -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <!-- jQuery and Select2 JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
-<!-- Select2 Initialization -->
-<script>
-    $(document).ready(function() {
-        $('#capital').select2({
-            placeholder: "Start typing the capital below...",
-            allowClear: true,
-        }).select2('open');
+    <!-- Select2 Initialization -->
+    <script>
+        $(document).ready(function() {
+            $('#capital').select2({
+                placeholder: "Start typing the capital below...",
+                allowClear: true,
+            }).select2('open');
 
-/*         setTimeout(function() {
-            document.querySelector('.select2-container--open .select2-search__field')?.focus();
-        }, 300); */
-    });
-</script>
+            // Hide submit button if result is shown
+            {% if show_result %}
+                $('#submitButton').hide();
+            {% else %}
+                $('#nextCountryForm').hide();
+                $('#resetForm').hide();
+            {% endif %}
+
+
+    /*         setTimeout(function() {
+                document.querySelector('.select2-container--open .select2-search__field')?.focus();
+            }, 300); */
+
+
+        });
+    </script>
 
 </body>
 </html>

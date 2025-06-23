@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
     font-family: 'Rock Salt';
     src: url('/static/fonts/RockSalt-Regular.eot');
@@ -36,6 +37,7 @@
   font-display: block;
 }
 
+/* Icons */
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -66,12 +68,14 @@
 }
 .icon-cancel-circle:before {
   content: "\ea0d";
+  color: red
 }
 .icon-exit:before {
   content: "\ea14";
 }
 .icon-checkbox-checked:before {
   content: "\ea52";
+  color: green
 }
 .icon-world:before {
   content: "\e901";
@@ -83,6 +87,7 @@
     bottom: auto !important;
 }
 
+/* Titles */
 .big-title {
   font-family: "Rock Salt", cursive;
   font-weight: 400;
@@ -101,13 +106,14 @@ header {
   margin-left: 400px;
 }
 
+/* Index */
 .cuerpo1 {
   font-family: "LXGW Marker Gothic", sans-serif;
   font-style: normal;
   margin-top: 90px;
   margin-left: 490px;
   padding: 0 16px 16px 16px;
-  background-color: rgba(135, 206, 250, 0.629);
+  background-color: rgb(29, 159, 230);
   border-radius: 8px;
   display: inline-block
 }
@@ -116,8 +122,8 @@ header {
   font-family: "LXGW Marker Gothic", sans-serif;
   font-style: normal;
   margin-top: 150px;
-  margin-left: 590px;
-  background-color: rgba(109, 75, 11, 0.686);
+  margin-left: 650px;
+  background-color: rgb(45, 148, 17);
   padding: 0 16px 16px 16px; /* arriba 0, derecha 16px, abajo 16px, izquierda 16px */
   border-radius: 8px; /* Opcional, para bordes redondeados */
   display: inline-block; /* Hace que el fondo solo abarque el contenido */
@@ -129,20 +135,21 @@ header {
   font-size: 18px;
 }
 
+/* Quiz */
 .results-quiz {
   font-family: "LXGW Marker Gothic", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
   padding: 0 16px 16px 20px;
-  background-color: rgba(109, 75, 11, 0.334);
+  background-color: rgba(109, 75, 11, 0.849);
   border-radius: 8px;
   display: inline-block;
 }
 
 .questions-quiz {
-  padding: 0 16px 16px 20px;
-  background-color: rgba(173, 222, 230, 0.633);
+  padding: 0 16px 16px 70px;
+  background-color: rgba(173, 222, 230, 0.849);
   border-radius: 8px;
   height: 480px;
 }
@@ -155,16 +162,52 @@ header {
   margin-top: 40px;
 }
 
-.correct-answer  {
-  color: green;
+.answer  {
+  color: white;
 }
 
-.wrong-answer {
-  color: red;
-}
-
+/* Button selectors */
 .big-button {
   font-size: 1em;
   padding: 10px 28px;
   border-radius: 8px;
+}
+
+/* Background images selectors */
+.background-image {
+  background-image: url(/static/img/landscape-1.jpg);
+  background-color: rgba(135, 207, 235, 0.374);
+  background-size: cover;
+}
+
+.background-image2 {
+  background-image: url(/static/img/landscape-2.jpg);
+  background-color: rgba(135, 207, 235, 0.374);
+  background-size: cover;
+}
+
+/* HOME button selectors */
+.home-button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+.home-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from link */
+    font-family: "LXGW Marker Gothic", sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.home-button:hover {
+    background-color: #45a049;
 }
